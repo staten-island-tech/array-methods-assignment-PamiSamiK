@@ -9,13 +9,13 @@ const people = [
     {
       name: "Johnny",
       age: 16,
-      hobbies: ["Football", "Piano",],
+      hobbies: ["Football", "Piano","Boxing"],
       nationality: "American",
     },
     {
       name: "Landon",
       age: 18,
-      hobbies: ["Tennis", "MMA"],
+      hobbies: ["Tennis", "MMA","Drums"],
       nationality: "Russian",
     },
   ];
@@ -32,8 +32,6 @@ const people = [
       console.log(hobby);
     });
   });
-  
-  /
   const americanCitizens = people.filter((person) => person.nationality === "American");
   console.log("\nAmerican Citizens:");
   console.log(americanCitizens);
